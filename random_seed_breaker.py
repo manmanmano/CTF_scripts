@@ -1,4 +1,6 @@
 #!/bin/python3
+# The challenge here was to bruteforce the admin session cookie, which was using a 
+# random number generator that was being initialized with random.seed
 
 import random
 import requests
